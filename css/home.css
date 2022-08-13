@@ -1,0 +1,43 @@
+
+nav > ul{
+    display: flex;
+}
+
+nav li{
+    list-style: none;
+    margin-right: 20px;
+}
+
+nav li :hover{
+    border: 10px;
+    border-radius: 10;
+    border-color: salmon;
+    background-color: aqua;
+}
+
+nav li a{
+    text-decoration: none;
+    color: black;
+}
+
+header{
+    background-color: burlywood;
+}
+
+.dropdown{
+    display: none;
+    position: absolute;
+    background-color: aliceblue;
+    padding: 0;
+}
+
+.dropdown li{
+    padding: 0;
+    margin: 0;
+}
+
+nav > ul > li:hover > ul{
+    display: block;
+}
+
+
